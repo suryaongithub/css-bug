@@ -1,0 +1,139 @@
+#my_header
+{
+    text-align: center;
+    font-weight: bold;
+    color: #f03e47;
+    text-shadow: -2px 2px 4px #35c1f8;
+    
+}
+
+#myiframe{
+    display: inline-block;
+    width: 900px;
+    height: 500px;
+    transition: all;
+    opacity: 0;
+   
+}
+
+.footer:hover #myiframe{ 
+    transition-duration: 2s;
+    display: inline-block;
+    border:none;
+    opacity: 1;
+}
+
+
+.footer{
+    display:inline;
+}
+
+#homediv
+{
+    /* background-image: linear-gradient(135deg,#f72929 63%,#8c3ee6 63%,#1cfd1c 63%); */
+    /* background-image: linear-gradient(135deg,rgba(247, 41, 41, 0.63),rgba(140, 62, 230, 0.63),rgba(28, 253, 28, 0.63)); */
+    background-color: #d37b33;
+    border-radius: 10px;
+    stroke: cadetblue;
+    margin:5px;
+    box-shadow: -5px 5px 15px #00ff80;
+    padding: 1px
+     
+     /* background-color: black; */
+}
+
+body
+{
+    background-color: rgb(181, 255, 209);
+}
+
+#i1{
+    box-shadow: 10px 10px 14px #ff0000 ;
+    width: 405px;
+    height: 405px;
+    border:solid 3px black;
+}
+
+#i2{
+    box-shadow: 10px 10px 14px #ff0000;
+    width: 750px;
+    height: 405px;
+    border:solid 3px black;
+}
+
+.maindiv
+{
+    display: grid;
+    gap: 5px;
+    background-color: black;
+    padding: 5px;
+
+}
+
+.div1
+{
+    background-color: rgb(107, 255, 210);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.div1 p,h1{
+text-align: left;
+}
+.div2
+{
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.div2 h1,p
+{
+    text-align: right;
+}
+
+.mypara{
+    font-weight: bold;
+    margin: 0px;
+    
+}
+
+a
+{
+    color: blue;
+    margin: 0px;
+    font-family: "Sofia", sans-serif;
+}
+
+a:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+#matterimg{
+    display: none;
+    margin:0px;
+    position: fixed;
+    top: 0px;
+    right: 50%;
+}
+
+#header{
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin: 10px;
+    justify-content: center;
+}
+
+#header h1{
+    text-align: center;
+}
+
+
+
